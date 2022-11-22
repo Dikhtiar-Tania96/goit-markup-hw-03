@@ -1,0 +1,255 @@
+:root{
+    --title-color: #212121;
+    --text-color: #757575;
+    --accent-color: #2196F3;
+    --logo-style-color: #000000;
+    --white-color: #FFFFFF;
+    --background-color-black: #2F303A;
+    --color-button: #F5F4FA;
+}
+
+.body{
+    background-color: var(--white-color);
+    font-family: Roboto, sans-serif;
+}
+
+.active{
+    text-decoration:none;
+}
+
+.logo{
+    color: var(--accent-color);
+    font-family: Raleway, sans-serif;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    text-decoration: none;
+    letter-spacing: 0.03em;
+}
+
+.logo-style{
+    color: var(--logo-style-color);
+    font-family: Raleway, sans-serif;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    text-decoration: none;
+    letter-spacing: 0.03em;
+}
+
+.logo-style-white{
+    color: var(--white-color);
+    font-family: Raleway, sans-serif;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    text-align: left;
+    text-decoration: none;
+}
+
+.navi {
+    color:var(--logo-style-color);
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 2%;
+    text-decoration: none;
+    letter-spacing: 0.02em;
+}
+
+.navi:hover,
+.navi:focus {
+    color: var(--accent-color);
+}
+.navi-active{
+    color: var(--accent-color);
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 2%;
+    text-decoration: none;
+    letter-spacing: 0.02em;
+}
+
+.contact{
+color: var(--text-color);
+}
+
+.contact:hover,
+.contact:focus{
+    color: var(--accent-color)
+}
+
+.section{
+    background-color: var(--background-color-black);
+    text-align: Center;
+}
+
+.headline{
+    color: var(--white-color);
+    font-family: Raleway, sans-serif;
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    text-transform: uppercase;
+    letter-spacing: 0.06em;
+}
+
+.heading{
+    color: var(--title-color);
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    text-transform: uppercase;
+    letter-spacing: 0.03em;
+}
+
+.text{
+    color: var(--text-color);
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.7;
+    letter-spacing: 0.03em;
+}
+
+ .list{
+    list-style: none;
+ }
+
+ .button{
+    font-family: Roboto, sans-serif;
+    color: var(--title-color);
+    background-color: #F5F4FA;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.6;
+    cursor:pointer;
+    letter-spacing: 0.03em;
+ }
+
+ .button-active{
+    font-family: inherit;
+    color: var(--white-color);
+    font-weight: 700;
+    background-color: var(--accent-color);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.6;
+    cursor:pointer;
+    letter-spacing: 0.06em;
+ }
+
+ .button-active:hover,
+ .button-active:focus{
+    background-color: #188ce8;
+ }
+
+.button:hover,
+.button:focus{
+    background-color: var(--accent-color);
+    color: var(--white-color);
+}
+
+ .active-address{
+    color: var(--white-color);
+    font-style: normal;
+    font-size: 14px;
+    line-height: 1.7;
+    text-align: left;
+    text-decoration: none;
+ }
+
+ .footer{
+    background-color: var(--background-color-black);
+ }
+
+.contact-active{
+    color: var(--text-color);
+    font-size: 14px;
+    font-style: normal;
+    line-height: 1.14;
+    letter-spacing: 2%;
+    text-decoration: none;
+    letter-spacing: 0.03em;
+}
+
+.contact-active-head{
+    color: var(--text-color);
+    font-size: 14px;
+    font-style: normal;
+    line-height: 1.14;
+    letter-spacing: 2%;
+    text-decoration: none;
+    letter-spacing: 0.02em;
+}
+
+.contact-active-head:hover,
+.contact-active-head:focus{
+    color: var(--accent-color);
+}
+
+.contact-active:hover,
+.contact-active:focus{
+    color: var(--accent-color);
+}
+
+.aside{
+    color: var(--title-color);
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.16;
+    text-align: Center;
+    letter-spacing: 0.03em;
+}
+
+.subtitle{
+    color: var(--title-color);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.18;
+    letter-spacing: 0.03em;
+}
+
+.subtitle-text{
+    color: var(--text-color);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.18;
+    letter-spacing: 0.03em;
+}
+
+.items{
+    color: var(--title-color);
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
+}
+
+.items-element{
+    color: var(--text-color);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.8;
+    letter-spacing: 0.03em;
+}
+
+.visually-hidden {
+    position: absolute;
+    white-space: nowrap;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    border: 0;
+    padding: 0;
+    clip: rect(0 0 0 0);
+    clip-path: inset(50%);
+    margin: -1px;
+}
+
+.comand{
+    background-color:var(--color-button)
+}
+.comand-block{
+    background-color: var(--white-color);
+}
