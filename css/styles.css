@@ -21,20 +21,41 @@
     outline: 2px solid tomato;
 }
 
-.header-style{
+.visually-hidden-style{
     background-color: var(--color-button);
+    margin-top: 94px;
+    margin-bottom: 94px;
 }
+
+
+.header-style{
+    background-color: var(-);
+
+}
+
+
 .main-style{
+    margin-top: 0;
     background-color: var(--background-color-black);
 }
 .visually-hiden-style{
     background-color: var(--background-color-section);
+    margin-top: 94px;
+}
+
+.section-photo{
+    background-color: navy;
+    margin-top: 94px;
 }
 .active{
     text-decoration:none;
 }
 
 .logo{
+    background-color: indigo;
+    padding-top: 24px;
+    padding-bottom: 25px;
+    padding-left: 215px;
     color: var(--accent-color);
     font-family: Raleway, sans-serif;
     font-weight: 700;
@@ -45,6 +66,9 @@
 }
 
 .logo-style{
+    background-color: indigo;
+    padding-top: 24px;
+    padding-bottom: 25px;
     color: var(--logo-style-color);
     font-family: Raleway, sans-serif;
     font-weight: 700;
@@ -65,6 +89,7 @@
 }
 
 .navi {
+    background-color: blue;
     color:var(--logo-style-color);
     font-weight: 500;
     font-size: 14px;
@@ -79,6 +104,7 @@
     color: var(--accent-color);
 }
 .navi-active{
+    background-color: blue;
     color: var(--accent-color);
     font-weight: 500;
     font-size: 14px;
@@ -103,6 +129,8 @@ color: var(--text-color);
 }
 
 .headline{
+    padding-top: 200px;
+   padding-bottom: 30px;
     color: var(--white-color);
     font-family: Raleway, sans-serif;
     font-weight: 900;
@@ -113,6 +141,7 @@ color: var(--text-color);
 }
 
 .heading{
+    background-color: pink;
     color: var(--title-color);
     font-weight: 700;
     font-size: 14px;
@@ -122,6 +151,8 @@ color: var(--text-color);
 }
 
 .text{
+    background-color: yellow;
+    margin-top: 10px;
     color: var(--text-color);
     font-weight: 400;
     font-size: 14px;
@@ -145,6 +176,10 @@ color: var(--text-color);
  }
 
  .button-active{
+    width: 200px;
+    height: 50px;
+    padding: 10px 24px;
+    margin-bottom: 200px;
     font-family: inherit;
     color: var(--white-color);
     font-weight: 700;
@@ -168,6 +203,7 @@ color: var(--text-color);
 }
 
  .active-address{
+    background-color: gray;
     color: var(--white-color);
     font-style: normal;
     font-size: 14px;
@@ -211,6 +247,10 @@ color: var(--text-color);
 }
 
 .aside{
+    background-color: red;
+
+    margin-top: 0;
+    margin-bottom: 50px;
     color: var(--title-color);
     font-weight: 700;
     font-size: 36px;
@@ -219,7 +259,26 @@ color: var(--text-color);
     letter-spacing: 0.03em;
 }
 
+.aside-comand{
+    background-color: paleturquoise;
+    
+
+    color: var(--title-color);
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.16;
+    text-align: Center;
+    letter-spacing: 0.03em;
+}
+.photos{
+    background-color: olive;
+    margin-top: 50px;
+}
+
+
 .subtitle{
+    background-color: orange;
+    margin-top: 30px;
     color: var(--title-color);
     font-weight: 500;
     font-size: 16px;
@@ -228,6 +287,9 @@ color: var(--text-color);
 }
 
 .subtitle-text{
+    background-color: rosybrown;
+    margin-top: 10px;
+
     color: var(--text-color);
     font-weight: 400;
     font-size: 16px;
@@ -236,6 +298,8 @@ color: var(--text-color);
 }
 
 .items{
+    background-color: yellowgreen;
+    margin-top: 20px;
     color: var(--title-color);
     font-weight: 700;
     font-size: 18px;
@@ -244,11 +308,13 @@ color: var(--text-color);
 }
 
 .items-element{
+    background-color: rosybrown;
+    padding-top:4px;
     color: var(--text-color);
     font-weight: 400;
     font-size: 16px;
     line-height: 1.8;
-    letter-spacing: 0.03em;
+    letter-spacing: 0.03em;nd
 }
 
 .visually-hidden {
@@ -264,8 +330,13 @@ color: var(--text-color);
     margin: -1px;
 }
 
-.comand{
-    background-color:var(--color-button)
+.comand {
+    background-color:var(--color-button);
+    margin-top: 94px;
+   
+    
+ 
+    
 }
 .comand-block{
     background-color: var(--white-color);
