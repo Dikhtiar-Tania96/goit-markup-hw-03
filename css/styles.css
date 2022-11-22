@@ -13,6 +13,15 @@
     font-family: Roboto, sans-serif;
 }
 
+.container {
+    background-color: skyblue;
+    width: 1170px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 .active{
     text-decoration:none;
 }
