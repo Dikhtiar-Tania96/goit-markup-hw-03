@@ -6,6 +6,7 @@
     --white-color: #FFFFFF;
     --background-color-black: #2F303A;
     --color-button: #F5F4FA;
+    --background-color-section :#F5F5F5;
 }
 
 .body{
@@ -14,14 +15,21 @@
 }
 
 .container {
-    background-color: skyblue;
-    width: 1170px;
-    padding-left: 15px;
-    padding-right: 15px;
+    width: 1200px;
     margin-left: auto;
     margin-right: auto;
+    outline: 2px solid tomato;
 }
 
+.header-style{
+    background-color: var(--color-button);
+}
+.main-style{
+    background-color: var(--background-color-black);
+}
+.visually-hiden-style{
+    background-color: var(--background-color-section);
+}
 .active{
     text-decoration:none;
 }
