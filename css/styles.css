@@ -32,8 +32,11 @@
     background-color: var(-);
 
 }
-
-
+.navi-head{
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+}
 .main-style{
     margin-top: 0;
     background-color: var(--background-color-black);
@@ -164,6 +167,32 @@ color: var(--text-color);
     list-style: none;
  }
 
+ .list-header{
+    background-color: chartreuse;
+    display: flex;
+    list-style: none;
+ }
+
+ .list-header .link{
+    outline: 2px solid tomato;
+ }
+
+ .list-header .link + .link {
+    margin-left: 50px;
+ }
+
+ .list-active{
+    list-style: none;
+    background-color: gold;
+    display: flex;
+ }
+
+ .list-active .link{
+    outline: 3px solid red;
+    margin-right: 40px;
+ }
+
+ 
  .button{
     font-family: Roboto, sans-serif;
     color: var(--title-color);
