@@ -18,7 +18,9 @@
     width: 1200px;
     margin-left: auto;
     margin-right: auto;
-    outline: 2px solid tomato;
+    padding-left: 15px;
+    padding-right: 15px;
+    /* outline: 2px solid tomato; */
 }
 
 .visually-hidden-style{
@@ -44,6 +46,7 @@
 .visually-hiden-style{
     margin-top: 94px;
 }
+
 
 .section-photo{
     margin-top: 94px;
@@ -177,6 +180,12 @@ color: var(--text-color);
     margin-top: 0;
     margin-bottom: 0;
     list-style: none;
+ }
+
+ .list .item-head{
+    flex-wrap: wrap;
+    display: inline-block;
+    width: 270px;
  }
 
  .list-header{
