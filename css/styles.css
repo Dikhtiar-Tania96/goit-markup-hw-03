@@ -65,8 +65,8 @@
 .navi-head{
     display: flex;
     align-items: center;
-    /* justify-content:space-around; */
 }
+
 .visually-hidden-style{
     background-color: var(--white-color);
     margin-top: 94px;
@@ -161,7 +161,7 @@
 /*main section*/
 .section{
     background-color: var(--background-color-black);
-    text-align: Center;
+    text-align: center;
 }
 /* .link-button{
     display: flex;
@@ -181,6 +181,7 @@
  
  .list > .photo{
     margin-right: 30px;
+
  }
 .list-button .item + .item{
     margin-left: 8px;
@@ -263,11 +264,12 @@
  }
 
  .list .item-head{
+    margin-right: 30px;
     flex-wrap: wrap;
     display: inline-block;
     width: 270px;
-   
-
+ }
+ 
  .heading {
     margin-bottom: 10px; 
     color: var(--title-color);
@@ -279,6 +281,8 @@
 }
 
 .text{
+    width: 270px;
+    margin-right: 30px;
     margin-top: 10px;
     color: var(--text-color);
     font-weight: 400;
@@ -304,7 +308,6 @@
     margin-top: 0;
     margin-bottom: 0;
     padding-top: 60px;
-    /* background-color: red; */
     color: var(--title-color);
     font-weight: 700;
     font-size: 36px;
@@ -321,59 +324,58 @@
 }
 
 .photos{
+    display: flex;
     margin-top: 50px;
+    width: 270px;
 }
 
 .photos-block{
-    display: flex;
-    list-style: none;
-    width: 270px;
+    background-color: var(--white-color);
     margin-right: 30px;
+    margin-bottom: 94px;
 }
 
 .subtitle{
+    text-align: center;
     margin-top: 30px;
     color: var(--title-color);
     font-weight: 5s-00;
     font-size: 16px;
     line-height: 1.18;
     letter-spacing: 0.03em;
-    align-items: center;
+   
 }
 
 .subtitle-text{
+    text-align: center;
     margin-top: 10px;
-
     color: var(--text-color);
     font-weight: 400;
     font-size: 16px;
     line-height: 1.18;
     letter-spacing: 0.03em;
-    align-items: center;
+   
 }
 .visually-hiden-style{
     margin-top: 94px;
 }
-
-
 
  .button-active:hover,
  .button-active:focus{
     background-color: #188ce8;
  }
  
+
 /*main portfolio*/
 .list-images{
     display: flex;
     flex-wrap: wrap;
     list-style: none;
     margin-top: 0;
-
-   
  }
 
+
  .images-element{
-    /* width: calc((100% - 2*30px) / 3); */
     width: 350px;
     margin-bottom: 30px;
     margin-right: 30px;
@@ -483,7 +485,6 @@
 
 /*footer portfolio*/
 .footer-style{
-    margin-top: 94px;
     background-color: var(--background-color-black);
 }
 
