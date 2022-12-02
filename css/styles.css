@@ -118,7 +118,6 @@ border-bottom-color: var(--border-color);
     text-decoration: none;
     letter-spacing: 0.03em;
 }
-
 .list-header{
     display: flex;
     list-style: none;
@@ -429,9 +428,9 @@ border-bottom-color: var(--border-color);
     padding-bottom: 94px;
     background-color: var(--white-color);
 }
-.list> .item-head:nth-last-child(4){
+/* .list> .item-head:nth-last-child(4){
 
-}
+} */
  .button-active:hover,
  .button-active:focus{
     background-color: #188ce8;
@@ -476,7 +475,7 @@ border-bottom-color: var(--border-color);
 
  .items{
     margin-top: 0;
-    margin bottom: 4px;
+    margin-bottom: 4px;
     color: var(--title-color);
     font-weight: 700;
     font-size: 18px;
@@ -490,16 +489,17 @@ border-bottom-color: var(--border-color);
     font-weight: 400;
     font-size: 16px;
     line-height: 1.8;
-    letter-spacing: 0.03em;nd
+    letter-spacing: 0.03em;
 }
+
 .button{
-    font-family: Roboto, sans-serif;
+    font-family: inherit;
     color: var(--title-color);
     background-color: #F5F4FA;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.6;
-    cursor:pointer;
+    cursor: pointer;
     letter-spacing: 0.03em;
  }
 
