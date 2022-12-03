@@ -43,6 +43,7 @@ border-bottom-color: var(--border-color);
 .navi-head{
     display: flex;
     align-items: center;
+    margin: 0;
 }
 
 .contact-active-head{
@@ -136,19 +137,12 @@ border-bottom-color: var(--border-color);
     list-style: none;
  }
 
-
-.list-active:nth-last-child(-n+1){
-    margin-right: 0;
-}
  .list-active .link + .link{
     margin-left: 40px;
  }
 
- 
  .list-active .link{
-    /* margin-left: auto; */
     display: flex;
-    margin: 0;
  }
 
  .contact{
@@ -466,7 +460,7 @@ border-bottom-color: var(--border-color);
     margin-right: 30px;
  }
 
- .images-element :nth-child(3n){
+ .images-element :nth-child(3n+1) {
     margin-right: 0;
  }
 
